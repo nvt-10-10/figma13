@@ -57,9 +57,17 @@ a {
 .lv1 {
     font-size: 13.6rem;
     font-weight: 700;
-    line-height: 1 4;
+    line-height: 1.4;
     letter-spacing: -5.44px;
 }
+
+.lv2 {
+    font-size: 7.6rem;
+    font-weight: 600;
+    line-height: 1.16;
+    letter-spacing: -3.04px;
+}
+
 /* Header */
 
 .header {
@@ -209,4 +217,55 @@ a {
 
 .hero__img:last-child {
     padding-left: 110px;
+}
+
+/* Our-Client */
+
+.Our-Client {
+    background: #22201f;
+    padding: 100px 0;
+}
+
+.Our-Client__inner {
+    position: relative;
+}
+
+.Our-Client__row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Our-Client__heading {
+    color: var(--white, #fff);
+}
+
+.Our-Client__desc {
+    width: 570px;
+    color: var(--gray-white, #d6d8d9);
+}
+
+.Our-Client__logo__list {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 100px;
+    row-gap: 86px;
+}
+
+.Our-Client__logo__item {
+    width: 100%;
+}
+
+.Our-Client__icon {
+    position: absolute;
+}
+
+.Our-Client__icon:nth-of-type(1) {
+    top: -40px;
+    left: -27px;
+}
+.Our-Client__icon:nth-of-type(2) {
+    top: -46px;
+    right: -14px;
 }
