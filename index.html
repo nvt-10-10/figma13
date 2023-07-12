@@ -7,7 +7,13 @@
         <!-- CSS -->
         <link rel="stylesheet" href="./assets/css/reset.css" />
         <link rel="stylesheet" href="./assets/css/styles.css" />
-
+        <!-- Font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+            rel="stylesheet"
+        />
         <!-- Favicon -->
         <link
             rel="apple-touch-icon"
@@ -78,10 +84,121 @@
             sizes="16x16"
             href="./assets/favicon/favicon-16x16.png"
         />
+
         <link rel="manifest" href="./assets/favicon/manifest.json" />
         <meta name="msapplication-TileColor" content="#ffffff" />
         <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
         <meta name="theme-color" content="#ffffff" />
     </head>
-    <body></body>
+    <body style="height: 9000px">
+        <header class="header fixed">
+            <div class="container">
+                <div class="header__inner">
+                    <img
+                        src="./assets/imgs/logo.png"
+                        alt="Kayuqu"
+                        class="logo"
+                    />
+                    <nav class="nav__header">
+                        <ul class="header__list">
+                            <li>
+                                <a href="#!" class="header__link header__active"
+                                    >Home</a
+                                >
+                            </li>
+                            <li><a href="#!" class="header__link">About</a></li>
+                            <li>
+                                <a href="#!" class="header__link">Projects</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="header__link">Contact</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="header__link"
+                                    >Page
+                                    <svg
+                                        class="header__menu"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="14"
+                                        height="14"
+                                        viewBox="0 0 14 14"
+                                        fill="none"
+                                    >
+                                        <path
+                                            d="M11.0837 4.95801L7.00033 9.04134L2.91699 4.95801"
+                                            stroke="currentColor"
+                                            stroke-width="1.5"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                        />
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <button class="btn header__btn">Contact</button>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <section class="hero">
+                <div class="container">
+                    <h1 class="section-heading lv1 hero__heading">
+                        CREATES A <span class="btn hero__btn"></span> PERFECT
+                        DESIGN
+
+                        <img
+                            src="./assets/icons/Ellipse 1.svg"
+                            alt=""
+                            class="hero__icon"
+                        />
+                        <img
+                            src="./assets/icons/Star 1.svg"
+                            alt=""
+                            class="hero__icon"
+                        /><img
+                            src="./assets/icons/Star 2.svg"
+                            alt=""
+                            class="hero__icon"
+                        /><img
+                            src="./assets/icons/star3.svg"
+                            alt=""
+                            class="hero__icon"
+                        />
+                    </h1>
+                    <div class="hero__row">
+                        <p class="section-desc hero__desc">
+                            Let our accomplished team of online interior
+                            designers submit concepts for your space — it's easy
+                            and convenient
+                        </p>
+
+                        <a href="" class="btn hero__action"
+                            >Conatct Us
+                            <img
+                                src="./assets/icons/Arrow-Right.svg"
+                                alt=""
+                                class="hero__icon__arrow"
+                        /></a>
+                    </div>
+                    <div class="hero__media">
+                        <img
+                            src="./assets/imgs/Rectangle 1.png"
+                            alt="Rectangle 1"
+                            class="hero__img"
+                        /><img
+                            src="./assets/imgs/Rectangle 2.png"
+                            alt="Rectangle 2"
+                            class="hero__img"
+                        /><img
+                            src="./assets/imgs/Rectangle 3.png"
+                            alt="Rectangle 3"
+                            class="hero__img"
+                        />
+                    </div>
+                </div>
+            </section>
+        </main>
+    </body>
 </html>
