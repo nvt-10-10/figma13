@@ -39,6 +39,12 @@ a {
     letter-spacing: -0.8px;
 }
 
+.section-action {
+    display: inline-flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
 .section-desc {
     color: #373739;
     font-family: Inter;
@@ -192,12 +198,6 @@ a {
     width: 601px;
 }
 
-.hero__action {
-    display: inline-flex;
-    align-items: center;
-    column-gap: 10px;
-}
-
 .hero__icon__arrow {
     width: 24px;
     height: 24px;
@@ -268,4 +268,37 @@ a {
 .Our-Client__icon:nth-of-type(2) {
     top: -46px;
     right: -14px;
+}
+
+/* About */
+
+.about {
+    padding: 100px 0;
+    background: #fff;
+}
+
+.about__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 100px;
+}
+
+.about__thumb {
+    margin-left: -75px;
+}
+
+.about__img {
+    width: 575px;
+    height: 706px;
+    object-fit: cover;
+}
+
+.about__heading {
+    text-transform: capitalize;
+    margin-bottom: 24px;
+}
+
+.about__desc {
+    margin-bottom: 54px;
 }
