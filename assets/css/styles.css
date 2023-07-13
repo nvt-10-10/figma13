@@ -511,3 +511,46 @@ a {
     color: var(--white-gray-2, #828282);
     text-align: center;
 }
+
+/*  */
+.review {
+    padding: 100px 0;
+}
+
+.review__inner {
+    display: flex;
+    column-gap: 130px;
+}
+
+.review__thumb {
+    margin-top: 115px;
+    margin-left: -150px;
+}
+
+.review__img {
+    width: 605px;
+    height: 729px;
+    object-fit: cover;
+}
+
+.review__heading {
+    text-transform: capitalize;
+    margin-bottom: 34px;
+}
+
+.review__quote {
+    width: 570px;
+    /* white-space: pre-line; */
+    text-align: left;
+}
+.review__controls {
+    display: flex;
+    column-gap: 18px;
+}
+.review__control {
+    border: none;
+}
+
+.review__control__back {
+    rotate: 180deg;
+}
