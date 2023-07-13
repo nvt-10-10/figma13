@@ -466,3 +466,48 @@ a {
 .project__icon:hover {
     cursor: pointer;
 }
+/*  */
+.services {
+    padding: 100px 0;
+    background: #fff;
+}
+
+.services__heading {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.services__desc {
+    width: 770px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.services__list {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 80px;
+}
+
+.services__item {
+    width: 100%;
+    text-align: center;
+}
+
+.services__item__title {
+    margin-top: 52px;
+    color: var(--black, #22201f);
+    text-align: center;
+
+    font-size: 3.6rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.333; /* 133.333% */
+    letter-spacing: -0.72px;
+}
+
+.services__item__desc {
+    color: var(--white-gray-2, #828282);
+    text-align: center;
+}
