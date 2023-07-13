@@ -385,7 +385,7 @@ a {
 }
 
 .works__thumb {
-    margin-right: -75px;
+    pa-right: -75px;
 }
 
 .works__img {
@@ -397,8 +397,8 @@ a {
 .projects {
     padding: 100px 0;
     background: var(--black, #22201f);
-    /* overflow: hidden; */
-    clip-path: inset(0);
+    overflow: hidden;
+    /* clip-path: inset(0); */
 }
 
 .projects__top {
@@ -529,10 +529,10 @@ a {
 
 .review__thumb {
     margin-top: 115px;
-    margin-left: -150px;
 }
 
 .review__img {
+    margin-left: -150px;
     width: 605px;
     height: 729px;
     object-fit: cover;
