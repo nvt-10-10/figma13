@@ -113,6 +113,7 @@ a {
     position: sticky;
     margin: 0 auto;
     top: 0;
+    z-index: 2;
 }
 
 .logo {
