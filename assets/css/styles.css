@@ -582,3 +582,45 @@ a {
 .review__control__back {
     rotate: 180deg;
 }
+
+/* achievements */
+.achievements {
+    padding: 100px 0;
+    background: #22201f;
+}
+
+.achievements__inner {
+    display: flex;
+    align-items: center;
+    column-gap: 130px;
+}
+
+.achievements__heading {
+    width: 574px;
+    color: var(--white, #fff);
+    text-transform: capitalize;
+}
+
+.achievements__list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 54px;
+    column-gap: 100px;
+}
+
+.achievements__item__stats {
+    color: var(--white, #fff);
+    font-size: 5.8rem;
+    font-weight: 600;
+    line-height: 1.172; /* 117.241% */
+    letter-spacing: -1.16px;
+}
+
+.achievements__item__title {
+    margin-top: 14px;
+    color: var(--gray-white, #d6d8d9);
+    font-size: 2.8rem;
+    font-weight: 500;
+    line-height: 1.357; /* 135.714% */
+    letter-spacing: -1.12px;
+}
