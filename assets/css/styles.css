@@ -84,6 +84,21 @@ a {
     line-height: 1.17;
     letter-spacing: -1.16px;
 }
+
+.line-clamp {
+    display: -webkit-box;
+    -webkit-line-clamp: var(--line-clamp, 1);
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.line-clamp.line-2 {
+    --line-clamp: 2;
+}
+
+.break-all {
+    word-break: break-all;
+}
 /* Header */
 
 .header {
@@ -445,6 +460,7 @@ a {
     height: 100%;
     transition: 0.25s;
     object-fit: cover;
+    display: block;
 }
 
 .projects__item__info {
@@ -623,4 +639,88 @@ a {
     font-weight: 500;
     line-height: 1.357; /* 135.714% */
     letter-spacing: -1.12px;
+}
+/* tranding */
+.tranding {
+    padding: 100px 0;
+    overflow: hidden;
+}
+
+.tranding__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tranding__list {
+    margin-top: 60px;
+    display: flex;
+    column-gap: 50px;
+}
+
+.tranding__item:nth-child(n + 3) {
+    opacity: 0.7;
+}
+
+.tranding__item:hover .tranding__item__img {
+    transform: scale(1.1);
+}
+
+.tranding__item__thumb {
+    overflow: hidden;
+}
+
+.tranding__item__img {
+    display: block;
+    width: 470px;
+    height: 350px;
+    object-fit: cover;
+    transition: 0.25s;
+}
+
+.tranding__item__date {
+    display: block;
+    margin-top: 24px;
+    color: var(--white-gray-2, #828282);
+    line-height: 1; /* 100% */
+    letter-spacing: -0.8px;
+}
+
+.tranding__item__title {
+    margin-top: 14px;
+    color: var(--black, #22201f);
+
+    /* 36 */
+    font-family: Inter;
+    font-size: 3.6rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.333; /* 133.333% */
+    letter-spacing: -0.72px;
+}
+
+.tranding__item__desc {
+    margin-top: 18px;
+    color: var(--gray, #373739);
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.667; /* 166.667% */
+    letter-spacing: -0.36px;
+}
+
+.tranding__action {
+    margin-top: 30px;
+    color: var(--black, #22201f);
+
+    /* 20 medium */
+    font-family: Inter;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 500;
+
+    letter-spacing: -0.8px;
+}
+.tranding__action:hover {
+    opacity: 0.7;
 }
