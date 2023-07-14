@@ -1,0 +1,20 @@
+.introduce {
+    padding: 100px 0;
+    background: #fff;
+}
+
+.introduce__heading {
+    width: 870px;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.introduce__desc {
+    width: 570px;
+    margin-left: auto;
+}
+
+.about__img {
+    display: block;
+    width: 100%;
+}
