@@ -1,0 +1,20 @@
+.introduce {
+    padding: 100px 0 80px;
+    background: var(--black, #22201f);
+}
+
+.introduce__heading {
+    width: 570px;
+    color: var(--white, #fff);
+    text-align: center;
+    margin: 0 auto;
+    text-transform: capitalize;
+}
+
+.introduce__desc {
+    margin-top: 24px;
+    width: 570px;
+    color: var(--gray-white, #d6d8d9);
+    margin: 0 auto;
+    text-align: center;
+}
