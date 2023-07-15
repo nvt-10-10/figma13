@@ -103,7 +103,7 @@ a {
 /* Header */
 
 .header {
-    padding: 16px 0 16px 0;
+    padding: 32px 0;
     background: var(--primary-color-bg);
     z-index: 1;
     /* background: #ff5b2e; */
