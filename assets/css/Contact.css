@@ -141,6 +141,19 @@
     border-color: #000;
 }
 
+.form-phone-select,
+.form-phone-input,
+.form-input,
+.input__textarea,
+.form-input::placeholder,
+.input__textarea::placeholder {
+    color: var(--white-gray-2, #828282);
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -0.8px;
+}
+
 .input__textarea {
     padding: 20px;
     resize: none;
@@ -149,18 +162,7 @@
     border-radius: 6px;
     border: 1px solid var(--gray-white, #d6d8d9);
     background: var(--white, #fff);
-}
-
-.form-phone-select,
-.form-phone-input,
-.form-input,
-.form-input::placeholder,
-.input__textarea::placeholder {
-    color: var(--white-gray-2, #828282);
-    font-size: 2rem;
-    font-style: normal;
-    font-weight: 400;
-    letter-spacing: -0.8px;
+    color: var(--white-gray-2, #373739);
 }
 
 .form-input {
