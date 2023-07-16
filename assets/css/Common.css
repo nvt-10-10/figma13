@@ -130,13 +130,17 @@ a {
 .nav__header {
     margin: 0 auto;
 }
-
-.header__list {
+.navbar__list {
     display: flex;
     align-items: center;
 }
 
-.header__link {
+.navbar__item {
+    position: relative;
+}
+
+.sub-menu__link,
+.navbar__link {
     position: relative;
     padding: 8px 14px;
     color: #373739;
@@ -146,7 +150,7 @@ a {
     letter-spacing: -0.8px;
 }
 
-.header__active::before {
+.navbar__active::before {
     content: "";
     position: absolute;
     width: 38.6%;
@@ -159,6 +163,44 @@ a {
 .header__menu {
     color: currentColor;
     margin-left: 6px;
+}
+
+.navbar__item:hover .sub-menu {
+    display: block;
+}
+
+.sub-menu {
+    display: none;
+    position: absolute;
+    width: 100px;
+    background: #fff;
+    left: 8px;
+    top: 30px;
+    transform: 0.25s;
+}
+.sub-menu__item {
+    padding: 20px;
+}
+.sub-menu__item:hover {
+    width: 100%;
+    background: #adacac;
+    cursor: pointer;
+}
+
+.sub-menu__link {
+    padding: 0;
+    display: block;
+    position: relative;
+}
+
+.sub-menu__active::before {
+    position: absolute;
+    content: "";
+    width: 48%;
+    height: 1px;
+    bottom: -20px;
+    left: 0;
+    background: #22201f;
 }
 
 .header__btn {

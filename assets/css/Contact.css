@@ -248,16 +248,14 @@
     letter-spacing: -0.72px;
 }
 
-.introduce__item__desc {
+.information__item__desc {
     color: var(--white-gray-2, #828282);
     text-align: center;
-
-    /* 18 */
     font-family: Inter;
-    font-size: 18px;
+    font-size: 1.8rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 166.667% */
+    line-height: 31.667px; /* 166.667% */
     letter-spacing: -0.36px;
 }
 
